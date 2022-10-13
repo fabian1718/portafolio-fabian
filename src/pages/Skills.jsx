@@ -1,9 +1,11 @@
 import React from 'react';
+import Skill from '../components/Skill';
+
 
 const Skills = () => {
     return (
         <div>
-            <h1>Pagina habilidades</h1>
+            <Skill />
         </div>
     );
 };

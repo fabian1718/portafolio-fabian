@@ -1,0 +1,19 @@
+
+.container-carousel-home{
+    display: flex;
+    justify-content: center;
+    /* background: red; */
+    height: 50vh;
+}
+
+@media (max-width: 912px) {
+    .container-carousel-home{
+        height: 23vh;
+    }
+}
+
+@media (max-width: 412px) {
+    .container-carousel-home{
+        height: 15vh;
+    }
+}

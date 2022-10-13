@@ -5,7 +5,8 @@ import '../styles/Project.css'
 
 const Projects = () => {
     return (
-        <div>
+        <div className='container-projects'>
+            <h1>Projects</h1>
             <Container>
             <div className="body__page">
                 <section className="container__card" id='skill'>
@@ -80,7 +81,13 @@ const Projects = () => {
                         <div className="info__description">
                             <p>Simple application, made in ReactJs, HTTP requests are applied with axios and time 
                                 indicators are delivered according to the location. Location permission is requested from the user..</p>
-                            <Button variant="info">See</Button>
+                            <Button 
+                                variant="info"
+                                href="https://entregable2fabian.netlify.app/" 
+                                target="_blank"
+                            >
+                                See
+                                </Button>
                         </div>
                     </div>
 
@@ -95,7 +102,12 @@ const Projects = () => {
                             <p> Diffuse background generator, the user varies, size, color, 
                                 borders and blur. Application designed in Html5, Css and JavaScrip..</p>
                             
-                            <Button>See</Button>
+                            <Button
+                                href="https://glasmorfismo.netlify.app/" 
+                                target="_blank"
+                            >
+                                See
+                            </Button>
                         </div>
                     </div>
 
@@ -112,7 +124,7 @@ const Projects = () => {
                             
                             <Button 
                                 variant="info"
-                                href="https://glittering-marigold-930bf8.netlify.app/" 
+                                href="https://rick-morty-fabian.netlify.app/" 
                                 target="_blank"
                             >
                                 See

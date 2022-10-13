@@ -13,7 +13,7 @@ const submit = () => {
           title:"currículum vitae", 
           text:`download successfully`, 
           icon: "success", 
-          button:"Aceptar",
+          button:"to accept",
           timer: "2000"
       }
       );

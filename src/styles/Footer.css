@@ -1,9 +1,10 @@
 .footer{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column-reverse;
+    justify-content: center;
     align-items: center;
     padding: 10px;
-    height: 100px;
+    width: 99%;
     border-top: solid 1px #eee;
 }
 

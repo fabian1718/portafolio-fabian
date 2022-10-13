@@ -1,0 +1,51 @@
+.container-text-animate{
+    width: 100%;
+}
+.line {
+    position: relative;
+    top: 50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(0, 0, 0, 0.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+/*Animation*/
+.anim-typewriter {
+    animation: typewriter 4s steps(36) 1s 1 normal both,    blinkTextCursor 500ms steps(36) infinite normal;
+    -webkit-animation: typewriter 4s steps(36) 1s 1 normal both,    blinkTextCursor 500ms steps(36) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 16em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(0, 0, 0, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}
+
+.text-animate{
+    margin-top: 10px;
+}
+
+.text-animate span {
+    font-size: xx-small;
+    color: rgb(255, 0, 0);
+  }

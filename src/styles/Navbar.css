@@ -1,0 +1,12 @@
+.download-cv-navbar {
+    padding: 10px 40px;
+    font-weight: 500;
+    color: blue;
+  }
+  
+  .download-cv-navbar:hover {
+    cursor: pointer;
+    color: rgb(255, 123, 0);
+  }
+  
+  

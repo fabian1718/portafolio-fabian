@@ -18,7 +18,13 @@ const Skill = () => {
                             <p> 
                                 Fluent handling to layout in HTM5: Images, texts, input, 
                                 buttons, links, implementing semantics in labels.</p>
-                            <Button variant="danger">More</Button>
+                            <Button 
+                                variant="danger"
+                                href="https://developer.mozilla.org/es/docs/Web/HTML" 
+                                target="_blank"
+                            >
+                                More
+                                </Button>
                         </div>
                     </div>
             
@@ -29,7 +35,13 @@ const Skill = () => {
                         <div className="info__description">
                             <p>Organized work in independent style sheets, under international parameters.
                                 Fluent handling of display flex and grid.</p>                        
-                            <Button variant="info">More</Button>
+                            <Button 
+                                variant="info"
+                                href="https://developer.mozilla.org/es/docs/Web/CSS" 
+                                target="_blank"
+                            >
+                                More
+                                </Button>
                         </div>
                     </div>
             
@@ -40,7 +52,13 @@ const Skill = () => {
                         <div className="info__description">
                             <p>Logic and understanding are my weapon; I'm good at error handling and I have knowledge 
                                 in advanced JavaScrip.</p>
-                            <Button variant="warning">More</Button>
+                            <Button 
+                                variant="warning"
+                                href="https://developer.mozilla.org/es/docs/Web/JavaScript" 
+                                target="_blank"
+                            >
+                                More
+                            </Button>
                         </div>
                     </div>
 
@@ -52,7 +70,13 @@ const Skill = () => {
                             <p>
                                 Fluid handling of components, hooks, HTTP requests with Axios, life cycle management of components, forms and implementation 
                                 of libraries such as React Router, Redux.</p>
-                            <Button variant="info">More</Button>
+                            <Button 
+                                variant="info"
+                                href="https://es.reactjs.org/" 
+                                target="_blank"
+                            >
+                                More
+                            </Button>
                         </div>
                     </div>
 
@@ -64,7 +88,12 @@ const Skill = () => {
                             <p> 
 Excellent version handling with git; Use of the basic commands: branch, checkout, status, add, commit, push, revert and merge.</p>
                             
-                            <Button>More</Button>
+                            <Button 
+                                href="https://github.com/pereirajs/pagina" 
+                                target="_blank"
+                            >
+                                More
+                            </Button>
                         </div>
                     </div>
 
@@ -76,7 +105,13 @@ Excellent version handling with git; Use of the basic commands: branch, checkout
                             <p> 
 Creation of clean and responsive interfaces with Bootstrap.</p>
                             
-                            <Button variant="info">More</Button>
+                            <Button 
+                                variant="info"
+                                href="https://react-bootstrap.github.io/" 
+                                target="_blank"
+                            >
+                                More
+                            </Button>
                         </div>
                     </div>
 

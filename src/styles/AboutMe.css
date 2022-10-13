@@ -1,0 +1,94 @@
+
+.color-blue{
+    color: blue;;
+}
+
+.color-blue:hover{
+    padding: 2px;
+    color: rgb(77, 255, 0);
+}
+
+.color-facebook{
+    color: #2861AE;
+}
+
+.color-facebook:hover{
+    padding: 2px;
+    color: rgb(77, 255, 0);
+}
+
+.color-intagram{
+    color: #D8003F;
+}
+
+.color-intagram:hover{
+    padding: 2px;
+    color: rgb(77, 255, 0);
+}
+
+.color-celeste{
+    color: #1C96E8;
+}
+
+.color-celeste:hover{
+    padding: 2px;
+    color: rgb(77, 255, 0);
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.conatiner-AboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 820px) {
+    .conatiner-AboutMe{
+        flex-direction: column;
+    }
+
+    .conatiner-photo img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.conatiner-AboutMe span {
+    color: #ADADAD;
+}
+
+@media (min-height: 768px) {
+        .conatiner-AboutMe{
+        margin-bottom: calc( 100vh - 840px );
+    }
+}
+
+.conatiner-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-i{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size:25px;
+}
+
+.conatiner-photo img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: contain;
+}

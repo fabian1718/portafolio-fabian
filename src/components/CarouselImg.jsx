@@ -92,7 +92,7 @@ function CarouselImg() {
             </p> */}
             <Button 
               variant="warning"
-              href="https://glittering-marigold-930bf8.netlify.app/" 
+              href="https://rick-morty-fabian.netlify.app/" 
               target="_blank"
             >
               Rick and Mortin

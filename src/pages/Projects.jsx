@@ -23,31 +23,10 @@ const Projects = () => {
                                 Use the following libraries: react-router-dom, bootstrap, react-redux, react-hook-form</p>
                             <Button 
                                 variant="danger"
-                                href="https://incandescent-semifreddo-ffd87f.netlify.app/" 
+                                href="https://fabian-ecommerce.netlify.app/" 
                                 target="_blank"
                             >
                                 See</Button>
-                        </div>
-                    </div>
-            
-                    <div className="card c2">
-                        <div className="icon">
-                            <div className='flex'>
-                                <i className="fa-solid fa-list-check"></i>
-                                <p>CRUDS</p>
-                            </div>
-                        </div>
-                        <div className="info__description">
-                            <p>Application made in ReactJs, the concepts of: 
-                                HTTP requests with axios, Conditional Rendering, 
-                                Controlled Inputs, React Hook Form and Redux are applied.</p>                        
-                            <Button 
-                                variant="info"
-                                href="https://crud-fabian.netlify.app/" 
-                                target="_blank"
-                            >
-                                See
-                                </Button>
                         </div>
                     </div>
             
@@ -63,7 +42,7 @@ const Projects = () => {
                                 Conditional Rendering, Controlled Inputs, Hooks and Redux are applied.</p>
                             <Button 
                                 variant="warning"
-                                href="https://clever-rabanadas-54dd82.netlify.app/#/pokedex" 
+                                href="https://fabian-pokeapi.netlify.app/" 
                                 target="_blank"
                             >
                                 See
@@ -83,7 +62,7 @@ const Projects = () => {
                                 indicators are delivered according to the location. Location permission is requested from the user..</p>
                             <Button 
                                 variant="info"
-                                href="https://entregable2fabian.netlify.app/" 
+                                href="https://fabian-climate.netlify.app/" 
                                 target="_blank"
                             >
                                 See
@@ -103,11 +82,32 @@ const Projects = () => {
                                 borders and blur. Application designed in Html5, Css and JavaScrip..</p>
                             
                             <Button
-                                href="https://glasmorfismo.netlify.app/" 
+                                href="https://fabian-glasmorfismo.netlify.app/" 
                                 target="_blank"
                             >
                                 See
                             </Button>
+                        </div>
+                    </div>
+
+                    <div className="card c2">
+                        <div className="icon">
+                            <div className='flex'>
+                                <i className="fa-solid fa-list-check"></i>
+                                <p>CRUDS</p>
+                            </div>
+                        </div>
+                        <div className="info__description">
+                            <p>Application made in ReactJs, the concepts of: 
+                                HTTP requests with axios, Conditional Rendering, 
+                                Controlled Inputs, React Hook Form and Redux are applied.</p>                        
+                            <Button 
+                                variant="info"
+                                href="https://fabian-crud.netlify.app/" 
+                                target="_blank"
+                            >
+                                See
+                                </Button>
                         </div>
                     </div>
 

@@ -38,7 +38,7 @@ function CarouselImg() {
           <Carousel.Caption className="container-btn-carrousel">
             <Button 
               variant="warning"
-              href="https://incandescent-semifreddo-ffd87f.netlify.app/" 
+              href="https://fabian-ecommerce.netlify.app/" 
               target="_blank"
             >
               E-commerce
@@ -68,7 +68,7 @@ function CarouselImg() {
             {/* <p>Desplegar Pokemones</p> */}
             <Button 
               variant="warning"
-              href="https://clever-rabanadas-54dd82.netlify.app/#/pokedex" 
+              href="https://fabian-pokeapi.netlify.app/" 
               target="_blank"
             >
               Poke-Api

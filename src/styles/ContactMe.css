@@ -1,8 +1,26 @@
 .conatainer-form{
     padding: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 15px;
     align-items: center;
+}
+
+.conatainer-form h1{
+    background: rgba(255, 254, 254, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 20px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    width: 80%;
+    text-align: center;
 }
 
 .form{

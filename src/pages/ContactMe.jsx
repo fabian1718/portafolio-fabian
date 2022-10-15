@@ -28,6 +28,7 @@ const ContactMe = () => {
 
   return (
     <Container className="conatainer-form">
+      <h1>CONTACT</h1>
     <Form onSubmit={handleSubmit(submit)} className="form">
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>

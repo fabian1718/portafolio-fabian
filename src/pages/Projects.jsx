@@ -6,11 +6,12 @@ import '../styles/Project.css'
 const Projects = () => {
     return (
         <div className='container-projects'>
-            <h1>Projects</h1>
-            <Container>
-            <div className="body__page">
-                <section className="container__card" id='skill'>
             
+            <Container>
+                
+            <div className="body__page flex">
+                    <h1>Projects</h1>
+                <section className="container__card" id='skill'>
                     <div className="card c1">
                         <div className="icon">
                             <div className='flex'>

@@ -15,13 +15,13 @@ import { useState } from 'react'
 function App() {
 
   const themeDefault = {
-    background: "white",
-    color: "black"
+    background: "#FAFAFA",
+    color: "#343A40"
   }
 
   const themeBlack = {
-    background: "black",
-    color: "white"
+    background: "#343A40",
+    color: "#FAFAFA"
   }
 
   const [theme, setTheme] = useState(themeDefault)
@@ -43,18 +43,16 @@ function App() {
   return (
     <HashRouter>
       <div>
-        <div className="App">
-          <Form className='container-btn-theme'>
-          <Form.Check 
-              type="switch"
-              id="custom-switch"
-              label={isOn ? "Dark" : "Light" }
-              checked= {isOn}
-              onChange={res => setIsOn(res.target.checked)}
-              onClick= { changeState }
-          />
+           <Form className='container-btn-theme '>
+            <Form.Check
+                type="switch"
+                id="custom-switch"
+                label={isOn ? "Dark" : "Light" }
+                checked= {isOn}
+                onChange={res => setIsOn(res.target.checked)}
+                onClick= { changeState }
+            />
           </Form>
-      </div>
 
         <NavBar />     
         <Routes>

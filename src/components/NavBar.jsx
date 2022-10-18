@@ -1,3 +1,5 @@
+import { useState } from 'react'
+import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -8,6 +10,33 @@ import '../styles/Navbar.css'
 import TextAnimate from './TextAnimate';
 
 const submit = () => {
+
+  // const themeDefault = {
+  //   background: "#FAFAFA",
+  //   color: "#343A40"
+  // }
+
+  // const themeBlack = {
+  //   background: "#343A40",
+  //   color: "#FAFAFA"
+  // }
+
+  // const [theme, setTheme] = useState(themeDefault)
+  // const [ isOn, setIsOn ] = useState(false)
+
+  // document.body.style = `background: ${theme.background}`
+  // document.body.style.color = `${theme.color}`;
+
+  // const changeState = () => {
+  //   if (isOn) {
+  //     setTheme(themeDefault);
+  //     setTheme
+  //   }
+  //   else {
+  //     setTheme(themeBlack);
+  //   }
+  // }
+
   swal(
       {
           title:"currículum vitae", 
@@ -20,9 +49,9 @@ const submit = () => {
 }
 
 const NavBar = () => {
-
+  // light - dark
   return (
-      <Navbar sticky="top" bg="light" expand="lg">
+      <Navbar sticky="top" bg='dark' variant="dark" expand="lg">
         <Container fluid>
           <Navbar.Brand href="/"><img style={{width:50}} src={logo} alt="" />Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -44,7 +73,21 @@ const NavBar = () => {
               <Nav.Link href="#" disabled> <TextAnimate /></Nav.Link>
             </Nav>
             
-            <a onClick={submit} className='download-cv-navbar' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
+            
+
+            <a style={{color:'white'}} onClick={submit} className='download-cv-navbar' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
+
+            {/* <Form className='container-btn-theme '>
+              <Form.Check
+                type="switch"
+                id="custom-switch"
+                label={isOn ? "Dark" : "Light" }
+                checked= {isOn}
+                onChange={res => setIsOn(res.target.checked)}
+                onClick= { changeState }
+              />
+            </Form> */}
+
           </Navbar.Collapse>
         </Container>
       </Navbar>

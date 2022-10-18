@@ -10,7 +10,7 @@ const Projects = () => {
             <Container>
                 
             <div className="body__page flex">
-                    <h1>Projects</h1>
+                    <h1 style={{color:'#A3A6A9'}}>Projects</h1>
                 <section className="container__card" id='skill'>
                     <div className="card c1">
                         <div className="icon">

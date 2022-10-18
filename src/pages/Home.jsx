@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CarouselImg from '../components/CarouselImg';
 import '../styles/Home.css'
 import Skills from './Skills';
 
 
 const Home = () => {
+
     return (
         <div className='container-home'>
             <div className='container-carousel-home'>

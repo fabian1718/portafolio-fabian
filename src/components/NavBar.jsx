@@ -51,7 +51,7 @@ const submit = () => {
 const NavBar = () => {
   // light - dark
   return (
-      <Navbar sticky="top" bg='dark' variant="dark" expand="lg">
+      <Navbar sticky="top" bg='primary' variant="dark" expand="lg">
         <Container fluid>
           <Navbar.Brand href="/"><img style={{width:50}} src={logo} alt="" />Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

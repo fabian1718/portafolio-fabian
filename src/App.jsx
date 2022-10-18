@@ -16,11 +16,11 @@ function App() {
 
   const themeDefault = {
     background: "#FAFAFA",
-    color: "#343A40"
+    color: "#1A1A1A"
   }
 
   const themeBlack = {
-    background: "#343A40",
+    background: "#1A1A1A",
     color: "#FAFAFA"
   }
 

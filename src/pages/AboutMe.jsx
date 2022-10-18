@@ -11,7 +11,7 @@ const AboutMe = () => {
                     <img src={photo} alt="" />
                 </div>
                 <div>
-                    <h1> <span>Hi, I'm Fabian</span> Web designer and developer</h1>
+                    <h1 style={{color:'red'}}> <span>Hi, I'm Fabian</span> Web designer and developer</h1>
                     <div className='container-i'>
                         <i class="fa-brands fa-instagram color-intagram"></i>
                         <i class="fa-brands fa-facebook color-facebook"></i>
